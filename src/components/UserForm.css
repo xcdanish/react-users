@@ -1,0 +1,45 @@
+/* src/components/UserForm.css */
+.custom-modal .modal-content {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.custom-modal .modal-header {
+  padding: 1.5rem 1.5rem 0.5rem;
+}
+
+.custom-modal .modal-body {
+  padding: 1.5rem;
+}
+
+.custom-modal .modal-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.custom-input {
+  border-radius: 8px;
+  padding: 0.625rem 1rem;
+  border: 1px solid #dee2e6;
+  transition: border-color 0.2s ease;
+}
+
+.custom-input:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+}
+
+.form-label {
+  font-weight: 500;
+  color: #495057;
+  margin-bottom: 0.5rem;
+}
+
+/* Button styles */
+.btn {
+  padding: 0.5rem 1.25rem;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
